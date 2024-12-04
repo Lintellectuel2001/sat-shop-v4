@@ -1,0 +1,45 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'red-500': '#ef4444',
+        'blue-500': '#3b82f6',
+        'green-500': '#22c55e',
+        'yellow-500': '#eab308',
+        'orange-500': '#f97316',
+        'purple-500': '#a855f7',
+        'pink-500': '#ec4899',
+      }
+    },
+  },
+  safelist: [
+    'text-white',
+    'text-red-500',
+    'text-blue-500',
+    'text-green-500',
+    'text-yellow-500',
+    'text-orange-500',
+    'text-purple-500',
+    'text-pink-500',
+    'border-white',
+    'border-red-500',
+    'border-blue-500',
+    'border-green-500',
+    'border-yellow-500',
+    'border-orange-500',
+    'border-purple-500',
+    'border-pink-500',
+    'bg-white',
+    'bg-red-500',
+    'bg-blue-500',
+    'bg-green-500',
+    'bg-yellow-500',
+    'bg-orange-500',
+    'bg-purple-500',
+    'bg-pink-500',
+  ],
+  plugins: [],
+};
